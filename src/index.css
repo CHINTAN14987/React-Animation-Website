@@ -1,0 +1,589 @@
+/* Service Page Style*/
+
+.servicesProvided {
+  font-family: Muli, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #b0b6bf;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: normal;
+}
+.serviceTopContainer h2 {
+  font-family: Nunito, sans-serif;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #0c121d;
+  text-transform: none;
+  font-weight: 800;
+  font-style: normal;
+}
+.serviceTopContainer {
+}
+.servicesSpan {
+  font-family: Nunito, sans-serif;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: 0;
+
+  text-transform: none;
+  font-weight: 800;
+  font-style: normal;
+  color: #0aadeb;
+}
+.servicesView {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: underline;
+  font-style: normal;
+  margin-right: 10px;
+}
+.ServicesProvidedInnerContainer p {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6d7a8c;
+  text-transform: none;
+  font-weight: 400;
+  font-style: normal;
+}
+.services img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.servicesContainer {
+  background: #fff;
+
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 9px 24px 0 rgba(26, 47, 106, 0.05);
+}
+.softwareSummary {
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 9px 24px 0 rgba(26, 47, 106, 0.05);
+}
+.paragraph p {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6d7a8c;
+  text-transform: none;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 1rem;
+}
+.softwareSummary button {
+  background-color: #0aadeb;
+  width: 55px;
+  display: inline-block;
+  height: 55px;
+  line-height: 55px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  border: transparent;
+}
+.summaryButton {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+}
+.myButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+.myButton:hover,
+.myButtonTwo:hover,
+.myButtonThree:hover {
+  background-color: black;
+  color: #0aadeb;
+}
+
+.softwareSummary:hover,
+.services:hover {
+  transform: translate(0, -20px);
+  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+.summaryButtonIcon {
+  margin-top: -5px;
+}
+.summaryButtonTwo,
+.summaryButtonThree {
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  left: 5px;
+}
+.myButtonTwo {
+  margin-left: auto;
+  margin-right: auto;
+}
+.servicesInnerContainer {
+  padding: 25px 30px 10px;
+  background: #fff;
+  margin: -30px 20px 0;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 9px 24px 0 rgba(26, 47, 106, 0.05);
+  width: 80%;
+  min-height: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border-radius: 10px;
+  padding-bottom: 0 !important;
+}
+.myContainer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.servicesInnerContainer button {
+  background-color: #0aadeb;
+  width: 55px;
+  display: inline-block;
+  height: 55px;
+  line-height: 55px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  border: transparent;
+  text-align: center;
+}
+.icon {
+  margin-top: -8px;
+  margin-bottom: auto;
+}
+.servicesInnerContainer p {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6d7a8c;
+  text-transform: none;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 3rem;
+}
+.servicesInnerContainer h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #0aadeb;
+  margin: 0.7rem !important;
+}
+
+.servicesInnerContainer h3:hover,
+.softwareSummary h3:hover {
+  color: #0aadeb;
+}
+
+.servicesInnerContainer h3 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0.7rem !important;
+}
+.softwareSummary h3 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.servicesRow {
+  background-color: #eef7f9;
+  margin-bottom: 5rem;
+}
+.servicesFirstColumn {
+  border-radius: 10px;
+}
+/* =============================================== */
+
+.cards {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+}
+.cardSummary {
+  padding-top: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .cardSummary div {
+  padding-bottom: 1rem;
+} */
+.cardHeading h3 {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: #0c121d;
+  font-weight: 600;
+}
+.cardImage {
+  position: relative;
+}
+.containerfluid {
+  position: relative;
+  background-color: #0aadeb;
+  height: 36rem;
+  top: -8rem;
+  /* width: 90%; */
+}
+.cardsRow {
+  position: absolute;
+  z-index: 100;
+  top: -10%;
+  left: 15%;
+  width: 80%;
+}
+.cardContent p {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6d7a8c;
+  text-transform: none;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardButton {
+  border-radius: 70px 0 10px 0;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+  text-align: left;
+  background-image: none;
+  border: transparent;
+  background-color: #0c121d;
+}
+.servicesRow {
+  padding-top: 2rem;
+  margin-top: -10rem;
+}
+.services {
+  padding-bottom: 0 !important;
+}
+.btn-container {
+  position: absolute;
+  bottom: -80px;
+  right: -60px;
+  margin: 0;
+  margin: 0;
+  width: 130px;
+  height: 150px;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.cardIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: transform(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+}
+.cardNumber {
+  font-size: 3rem;
+  text-shadow: -1px 1px 0 #d3d3d3, 1px 1px 0 #d3d3d3, 1px -1px 0 #d3d3d3,
+    -1px -1px 0 #d3d3d3;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  right: -25px;
+  top: -30px;
+  letter-spacing: 3px;
+}
+.card1 {
+  min-height: 278px;
+}
+.card2 {
+  min-height: 278px;
+}
+.card3 {
+  min-height: 278px;
+}
+.singleCard {
+  padding: 1.5rem;
+}
+.blockQuote {
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+cite {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  padding-top: 5px;
+  line-height: normal;
+  color: #fff;
+}
+.QuoteParagraph {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #fff;
+  font-weight: 300;
+}
+/* ///////////////////////// SLIDER*/
+
+.sliderContainer .owl-carousel {
+  position: relative;
+  margin-bottom: -2px;
+}
+.sliderContainer .owl-dots {
+  position: absolute;
+  right: -75px;
+  top: 50%;
+  transform: rotate(-90deg) translateY(-80px);
+}
+.sliderContainer .owl-theme .owl-dots .owl-dot.active span {
+  background-color: white !important;
+
+  height: 1rem;
+  width: 1rem;
+}
+.sliderContainer .owl-theme .owl-dots .owl-dot span {
+  height: 1rem !important;
+  width: 1rem !important;
+  border: 2px solid#fff !important;
+  background-color: transparent !important;
+}
+
+.sliderContainer .owl-theme .owl-nav {
+  display: none;
+  margin-top: 0;
+}
+.sliderContainer .sliderContainer {
+  position: relative;
+}
+
+.expert {
+  position: absolute;
+  top: 10%;
+  right: 60px;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-name: zoomIn;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.sliderOneDetails {
+  position: absolute;
+  top: 30%;
+  left: 30px;
+  width: 70%;
+}
+.sliderOneDetails h4 {
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.sliderOneDetails h3 {
+  text-align: left;
+  line-height: 59px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 51px;
+  color: #fff;
+  animation-duration: 3s;
+  animation-name: zoomIn;
+}
+.sliderContainer .sliderSpan {
+  color: #0aadeb;
+}
+.sliderpageOneBtn {
+  border-width: 1px;
+  padding: 12px 40px;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.sliderpage_circleBtn {
+  background-color: #fff;
+  border-radius: 50%;
+  border: transparent;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1.5rem;
+}
+.circleBtnIcon {
+  color: #0aadeb !important;
+  font-size: 1.5rem;
+}
+.sliderPage1AnimationButton {
+  animation-duration: 3s;
+  animation-name: bounce;
+  margin-top: 2rem;
+}
+.btnClick {
+  line-height: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 1.5rem;
+}
+@media screen and (max-width: 1024px) {
+  .containerfluid {
+    height: 36rem;
+  }
+  .sliderOneDetails {
+    top: 8%;
+  }
+  .singleCard {
+    padding: 1rem;
+  }
+  .servicesInnerContainer {
+    min-height: 300px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    margin-left: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cardsRow {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 10px;
+  }
+  .containerfluid {
+    height: auto;
+    top: 0;
+  }
+  .sliderOneDetails {
+    top: 5%;
+  }
+  .servicesRow {
+    margin-top: 0;
+  }
+  .servicesRow.col {
+    margin-bottom: 8rem !important;
+  }
+  .sliderOneDetails h3 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+  .sliderOneDetails {
+    top: 20%;
+    width: 80%;
+  }
+  .expert {
+    width: 10rem;
+    right: 10px;
+    top: 10px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    margin-left: 1 !important;
+  }
+}
+@media screen and (max-width: 486px) {
+  .serviceTopContainer {
+    flex-direction: column !important;
+  }
+
+  .serviceTopContainer div {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .softwareSummary {
+    margin-bottom: 2rem;
+  }
+  .cardsRow {
+    left: 10px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    margin-left: 1rem !important;
+  }
+  .containerfluid {
+    height: auto;
+  }
+
+  .sliderOneDetails h3 {
+    font-size: 1.5rem;
+  }
+  .sliderOneDetails {
+    top: 0;
+    left: 5px;
+    width: 80%;
+  }
+  .expert {
+    width: 5rem;
+    right: 10px;
+    top: 10px;
+  }
+  .sliderPage1AnimationButton {
+    display: flex;
+    margin: 0;
+  }
+  .btnClick {
+    line-height: initial;
+  }
+  .sliderpageOneBtn {
+    padding: 0;
+    text-align: center;
+  }
+  .sliderContainer .owl-dots {
+    right: -100px !important;
+  }
+  .sliderContainer .owl-theme .owl-dots .owl-dot.active span {
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+  }
+  .sliderContainer .owl-theme .owl-dots .owl-dot span {
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+  }
+}
